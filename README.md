@@ -7,6 +7,8 @@ Projeto criado utilizando:
 ## Pré-requisitos
 
 - [Node](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Iniciando aplicação Electron com auto-reload em modo de desenvolvimento
 
@@ -14,7 +16,11 @@ Abra o terminal e execute o comando `npm start`
 
 ## Gerando pacote
 
-Execute o comando `npm run package:all` para gerar executável Electron para todas as plataformas.
+Para gerar executável Electron para todas as plataformas, execute o comando:
+
+```bash
+npm run package:all
+```
 
 Para gerar um executável para uma plataforma específica, utilize os seguintes comandos:
 
