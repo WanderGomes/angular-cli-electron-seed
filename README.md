@@ -2,7 +2,6 @@
 
 Projeto criado utilizando:
 - [Angular CLI](https://github.com/angular/angular-cli) versão 1.7.2
-- [Electron](https://electronjs.org/) versão 1.8.2
 
 ## Pré-requisitos
 
@@ -10,30 +9,13 @@ Projeto criado utilizando:
 - [NPM](https://www.npmjs.com/)
 - [Angular CLI](https://github.com/angular/angular-cli)
 
-## Iniciando aplicação Electron com auto-reload em modo de desenvolvimento
+## Servidor de desenvolvimento
 
-Abra o terminal e execute o comando `npm start`
+Execute o comando `ng serve` para subir a aplicação em modo de desenvolvimento.
 
-## Gerando pacote
+Navegue para o endereço `http://localhost:4200/`. A aplicação irá recarregar automaticamente quando houve mudanças no arquivos.
 
-Para gerar executável Electron para todas as plataformas, execute o comando:
-
-```bash
-npm run package:all
-```
-
-Para gerar um executável para uma plataforma específica, utilize os seguintes comandos:
-
-```bash
-# Windows
-npm run package:win
-
-# Linux
-npm run package:linux
-
-# Mac
-npm run package:osx
-```
+Para facilitar, execute o commando `ng serve --open`
 
 ## Code scaffolding
 
@@ -52,5 +34,3 @@ Execute o comando `ng e2e` para executar testes funcionais utilizando [Protracto
 ## Dúvidas
 
 Para dúvidas do Angular, execute o comando `ng help` ou acesse o guia oficial [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-Para dúvidas do Electron, acesso a documentação oficial [Documentação Electron](https://electronjs.org/docs)
