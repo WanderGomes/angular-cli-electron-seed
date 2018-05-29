@@ -6,7 +6,9 @@ Projeto criado utilizando:
 
 ## Pré-requisitos
 
-- [Node](https://nodejs.org/en/) versão 6+
+- [Node](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Comandos para rodar o projeto
 
