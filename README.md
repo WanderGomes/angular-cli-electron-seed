@@ -1,21 +1,30 @@
 # angular-cli-electron-seed
 
 Projeto criado utilizando:
-- [Angular CLI](https://github.com/angular/angular-cli) versão 1.7.2
+- [Angular CLI](https://github.com/angular/angular-cli) versão 6.0.5
+- [Electron](https://electronjs.org/) versão 2.0.2
 
 ## Pré-requisitos
 
-- [Node](https://nodejs.org/en/)
-- [NPM](https://www.npmjs.com/)
-- [Angular CLI](https://github.com/angular/angular-cli)
+- [Node](https://nodejs.org/en/) versão 6+
 
-## Servidor de desenvolvimento
+## Comandos para rodar o projeto
 
-Execute o comando `ng serve` para subir a aplicação em modo de desenvolvimento.
+|Comando|Descrição|
+|---|---|
+|`npm start`| Executa a aplicação em modo desenvolvedor com livereload |
+|`npm run ng:serve`| Executa a aplicação no navegador |
 
-Navegue para o endereço `http://localhost:4200/`. A aplicação irá recarregar automaticamente quando houve mudanças no arquivos.
+## Comandos para gerar pacote
 
-Para facilitar, execute o commando `ng serve --open`
+|Comando|Descrição|
+|---|---|
+|`npm run build`| Gera o pacote na pasta /dist |
+|`npm run build:prod`| Gera o pacote utilizando o Angular aot |
+|`npm run electron:local`| Gera o pacote e inicia o Electron |
+|`npm run electron:linux`| Gera o pacote e cria uma aplicação para o Linux |
+|`npm run electron:windows`| Funciona no windows somente, gera o pacote cria uma aplicação compatível com 32/64 bits |
+|`npm run electron:mac`|  Funciona somente no MacOS, gera o pacote e criar um arquivo `.app` para rodar no Mac |
 
 ## Code scaffolding
 
@@ -34,3 +43,5 @@ Execute o comando `ng e2e` para executar testes funcionais utilizando [Protracto
 ## Dúvidas
 
 Para dúvidas do Angular, execute o comando `ng help` ou acesse o guia oficial [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+Para dúvidas do Electron, acesso a documentação oficial [Documentação Electron](https://electronjs.org/docs)
