@@ -1,8 +1,8 @@
-# angular-cli-electron-seed
+# AngularCliElectronSeed
 
 Projeto criado utilizando:
-- [Angular CLI](https://github.com/angular/angular-cli) versão 6.0.5
-- [Electron](https://electronjs.org/) versão 2.0.2
+- [Angular CLI](https://github.com/angular/angular-cli) versão 7.3.0
+- [Electron](https://electronjs.org/) versão 4.0.2
 
 ## Pré-requisitos
 
